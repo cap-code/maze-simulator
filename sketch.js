@@ -1,13 +1,13 @@
 var row,cols,mstart=true;
-var w=43,f=1;
+var w=35,f=1;
 var grid=[];
 var stack=[],mstack=[];
 var current,mnext;
 var button1,button2;
 function setup() {
-	createCanvas(688,688);
+	createCanvas(560,560);
   button1=createButton('start');
-	button1.position(5,700);
+	button1.position(5,600);
 	button2=createButton('reduce speed');
 	button2.position(5,730)
 	//frameRate(5);
